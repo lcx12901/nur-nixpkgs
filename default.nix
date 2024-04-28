@@ -12,4 +12,5 @@
   overlays = import ./overlays; # nixpkgs overlays
 
   maxmindGeoIp = pkgs.callPackage ./pkgs/maxmindGeoIp {};
+  mihomo-meta = pkgs.callPackage ./pkgs/mihomo-meta {};
 }
